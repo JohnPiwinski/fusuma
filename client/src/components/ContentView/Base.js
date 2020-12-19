@@ -81,7 +81,7 @@ export const Base = memo(
                 <section
                 key={i}
                 className={classnames(
-                    i != 0 ? 'alignleft' : 'aligncenter',
+                    i != 0 ? 'alignleft slide-top' : 'aligncenter',
                     fusumaProps.classes,
                     fusumaProps.sectionTitle ? 'section-title' : undefined
                 )}

@@ -145,6 +145,15 @@ video {
   vertical-align: baseline;
 }
 
+h2 {
+    text-align: center;
+    margin-bottom: 4.5%;
+}
+
+p { 
+    font-size: 150%;
+}
+
 article,
 aside,
 details,

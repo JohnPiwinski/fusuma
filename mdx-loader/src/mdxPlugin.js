@@ -175,7 +175,7 @@ function mdxPlugin() {
             delete node.url;
           }
         });
-
+console.log(n);
         slide.push(n);
 
         if (n.type === 'jsx') {
@@ -198,6 +198,7 @@ function mdxPlugin() {
       const mdxJSX = toJSX(hash);
       // jsx variable is established, so we don't use babel/parser
       const jsx = mdxJSX.match(/<MDXLayout.+?>([\s\S]*)<\/MDXLayout>/m);
+      console.log("JSX", jsx);
       if (jsx) {
         const template = `
           (props) => (
